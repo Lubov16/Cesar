@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шифрование и Взлом текста</title>
+    <style>
+        body {
+            background-image: url('https://clipart-library.com/images/Acbrxpyqi.jpg');
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        input, button {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Шифрование и Взлом текста</h1>
+    <input type="text" id="inputText" placeholder="Введите текст" />
+    <input type="number" id="shift" placeholder="Сдвиг по алфавиту" min="0" max = "66" />
+    <button id="encryptButton">Зашифровать текст</button>
+    <button id="decryptButton">Дешифровать текст</button>
+    <button id="hackButton">Взломать текст</button>
+    <h2 id="outputText"></h2>
+
+    <script src="main.js"></script>
+</body>
+</html>
